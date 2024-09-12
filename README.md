@@ -20,3 +20,15 @@ dust_lib/
 │
 └── pyproject.toml
 ```
+
+3. install with uv
+
+```bash
+uv add dust_lib git+https://github.com/kotaroPurple/dust_lib.git
+```
+
+4. update dust_lib
+
+```bash
+uv add --reinstall-package dust_lib git+https://github.com/kotaroPurple/dust_lib.git
+```
